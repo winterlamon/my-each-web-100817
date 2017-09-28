@@ -1,5 +1,5 @@
 def my_each(array)
-  if block_given?
+#  if block_given?
     i = 0
     while
       i < array.length
@@ -7,9 +7,9 @@ def my_each(array)
       i += 1
     end
     array
-  else
-    puts "There is no block given."
-  end
+#  else
+#    puts "There is no block given."
+#  end
 end
 
 collection = [1, 2, 3, 4]
